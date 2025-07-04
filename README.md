@@ -5,7 +5,7 @@ Aplicación web para la gestión de productos, desarrollada con JavaScript, HTML
 ---
 
 ## 🖼️ Vista previa
-
+![server interaction](https://github.com/user-attachments/assets/e4b33295-6000-4b4d-a410-0a2aaba0029a)
 
 ---
 
