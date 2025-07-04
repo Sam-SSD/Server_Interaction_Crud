@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop HP Pavilion",
+      "precio": 899999
+    },
+    {
+      "id": 2,
+      "nombre": "Monitor LED 24\"",
+      "precio": 199999
+    },
+    {
+      "id": 3,
+      "nombre": "Teclado Mecánico RGB",
+      "precio": 79999
+    },
+    {
+      "id": 4,
+      "nombre": "Mouse Inalámbrico",
+      "precio": 29999
+    },
+    {
+      "id": 5,
+      "nombre": "Auriculares Bluetooth",
+      "precio": 89999
+    },
+    {
+      "id": 6,
+      "nombre": "Webcam HD",
+      "precio": 49999
+    },
+    {
+      "id": 7,
+      "nombre": "Disco SSD 500GB",
+      "precio": 69999
+    },
+    {
+      "id": 8,
+      "nombre": "Memoria RAM 16GB",
+      "precio": 85500
+    }
+  ]
+}

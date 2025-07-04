@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Productos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Gestión de productos">
+    <h1 id="titulo-principal">Gestión de Productos</h1>
+    <div class="acciones-barra">
+      <button id="btn-agregar" class="btn-principal" tabindex="0" aria-label="Agregar producto">Agregar producto</button>
+      <button id="btn-exportar" class="btn-principal" tabindex="0" aria-label="Exportar productos a CSV">Exportar a CSV</button>
+      <input id="input-busqueda" class="input-busqueda" placeholder="Buscar producto por nombre" aria-label="Buscar producto por nombre" tabindex="0">
+    </div>
+    <table aria-label="Tabla de productos">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th id="th-nombre" data-sort="nombre" style="cursor:pointer" tabindex="0" aria-label="Ordenar por nombre">Nombre &#8597;</th>
+          <th id="th-precio" data-sort="precio" style="cursor:pointer" tabindex="0" aria-label="Ordenar por precio">Precio &#8597;</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-productos">
+      </tbody>
+    </table>
+  </div>
+  <script src="js/gestion_api.js"></script>
+</body>
+</html> 
